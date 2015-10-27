@@ -17,7 +17,7 @@ var scroll = window.requestAnimationFrame ||
              window.mozRequestAnimationFrame ||
              window.msRequestAnimationFrame ||
              window.oRequestAnimationFrame ||
-             // IE Fallback, you can even fallback to onscroll
+             // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60) };
 
 var lastPosition = -1;
