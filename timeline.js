@@ -38,7 +38,7 @@ function loop(){
 		for(i = 0; i < year.length; i++) {
 			// Define the current instance of the loop
 			var self = year.eq(i);		
-			// Here we need to store the distance scrolled plus half of the window height in a variable 				  for further calculations
+			// Here we need to store the distance scrolled plus some offset in a variable for further calculations
 			var scrollTop = (pageYOffset || (document.documentElement.clientHeight ? document.documentElement.scrollTop : document.body.scrollTop)) + 230;
 
 
